@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour of Italy</title>
+    <style>
+        .header{
+            display: flex;
+            background-color: olive;
+            color: white;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        
+        body{
+            background-color: lightgoldenrodyellow;
+        }
+
+        .flex-container{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        .flex-container2{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        .flex-container3{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        .left img{
+            float:right;
+            height: 200px;
+            width: 300px;
+            margin-bottom: 10px;
+        }
+        .left{
+            height: 330px;
+            width: 300px;
+            border: 3px solid black;
+            background-color: lightyellow;
+            border-radius: 5%;
+            
+        }
+
+        .left img{
+            float: left;
+            border-radius: 5%;
+        }
+        .right{
+            height: 330px;
+            width: 300px;
+            border: 3px solid black;
+            background-color: lightyellow;
+            border-radius: 5%;
+        }
+
+        .right img{
+            float: right;
+            height: 200px;
+            width: 300px;
+            margin-bottom: 10px;
+            border-radius: 5%;
+        }
+        h2{
+            margin-left: 10px;
+        }
+
+        p{
+            margin-left: 10px;
+        }
+
+        .description{
+            text-align: center;
+            
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+        footer{
+            display: flex;
+            background-color: olive;
+            height: 70px;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="header">
+            <a href="#"><h1><i>Tour of Italy</i></h1></a>
+        </div>
+    </nav>
+    <div class="description">
+        <h1><b>Exploring Italy</b></h1>
+        <h3>By clicking on the links, you will be given options through Trip Advisor on things we could potentially do in the following cities. Enjoy!</h3>
+    </div>
+    <div class="flex-container">
+        <div class="left side">
+            <a href="https://www.tripadvisor.com/Attraction_Products-g187849-Milan_Lombardy.html" target="_blank"><img src="milan.jpg" alt="Picture of Milan, Italy" ></a>
+            <h2>Milan, Italy</h2>
+            <p>Milan is Italy's leading financial centre and its most prosperous manufacturing and commercial city.</p>
+        </div>
+        <div class="right side">
+            <a href="https://www.tripadvisor.com/Attraction_Products-g187791-Rome_Lazio.html" target="_blank"><img src="rome.jpg" alt="Picture of Rome, Italy"></a>
+            <h2>Rome, Italy</h2>
+            <p>Rome is the capital of Italy, it is largest city in the country, and seat of the Roman Catholic Church.</p>
+        </div>
+        
+    </div>
+    <div class="flex-container2">
+        <div class="left side">
+            <a href="https://www.tripadvisor.com/Attractions-g187899-Activities-Pisa_Province_of_Pisa_Tuscany.html" target="_blank"><img src="pisa.jpeg" alt="Picture of Pisa, Italy"></a>
+            <h2>Pisa, Italy</h2>
+            <p>Pisa is one of the most important cities in Tuscany and it is extremely well-known for its famous symbol: "the Leaning Tower".</p>
+        </div>
+        <div class="right side">
+            <a href="https://www.tripadvisor.com/Attraction_Products-g187895-Florence_Tuscany.html" target="_blank"><img src="florence.jpeg" alt="Picture of Florence, Italy"></a>
+            <h2>Florence, Italy</h2>
+            <p>Florence was founded as a Roman military colony about the 1st century bce, well known for its art and learning.</p>
+        </div>
+        
+    </div>
+    <div class="flex-container3">
+        <div class="left side">
+            <a href="https://www.tripadvisor.com/Attractions-g187870-Activities-Venice_Veneto.html" target="_blank"><img src="venice.jpeg" alt="Picture of Venice, Italy"></a>
+            <h2>Venice, Italy</h2>
+            <p>Venice is a island city, it was once the centre of a maritime republic. It was the greatest seaport in late medieval Europe.</p>
+        </div>
+        <div class="right side">
+            <a href="https://www.tripadvisor.com/Attractions-g187337-Activities-Frankfurt_Hesse.html" target="_blank"><img src="frankfurt.jpeg" alt="Picture of Frankfurt, Germany"></a>
+            <h2>Frankfurt, Germany</h2>
+            <p>Frankfurt is a pretty modern city. It is home to businesses, skyscrapers and Europe's third largest airport.</p>
+        </div>
+        
+    </div>
+    <footer>Copyright. Alaniz LLC</footer>
+</body>
+</html>
